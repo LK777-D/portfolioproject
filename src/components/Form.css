@@ -1,0 +1,92 @@
+.form-container {
+  font-family: inherit;
+  max-width: 18rem;
+  margin: 5rem auto;
+  background-color: #001925;
+  padding: 30px;
+  border-left: 5px solid var(--primary-color);
+  border-radius: 15px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    0 100%
+  );
+}
+
+.heading {
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.form-container .form .input {
+  color: #87a4b6;
+  width: 100%;
+  background-color: #002733;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  border-left: 1px solid transparent;
+}
+
+.form-container .form .input:focus {
+  border-left: 5px solid var(--primary-color);
+}
+
+.form-container .form .textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #013747;
+  color: var(--primary-color);
+  font-weight: bold;
+  resize: none;
+  max-height: 150px;
+  margin-bottom: 20px;
+  border-left: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container .form .textarea:focus {
+  border-left: 5px solid var(--primary-color);
+}
+
+.form-container .form .button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.form-container .form .button-container .send-button {
+  flex-basis: 70%;
+  background: var(--primary-color);
+  padding: 10px;
+  color: #001925;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.form-container .form .button-container .send-button:hover {
+  text-align: center;
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: #eee;
+}
+
+.form-container
+  .form
+  .button-container
+  .reset-button-container
+  .reset-button:hover {
+  background: var(--primary-color);
+  color: #eee;
+}

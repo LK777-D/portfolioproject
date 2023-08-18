@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: 4.5rem;
+}
+.navbar a {
+  cursor: pointer;
+  color: #eee;
+}
+.navigation {
+  display: flex;
+  gap: 0.3rem;
+}
+.navigation a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.navigation a:hover {
+  color: rgb(82, 18, 82);
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+.social {
+  transform: 0.3s ease-in;
+  transition: color 0.3s ease-in;
+  cursor: pointer;
+}
+.social:hover {
+  color: rgb(82, 18, 82);
+  transform: scale(1.2);
+}
+.formlink {
+  display: none;
+}
+.formlink a {
+  color: #eee;
+  border: 1px solid #eee;
+  padding: 0.7rem 1.1rem;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+.formlink a:hover {
+  color: rgb(82, 18, 82);
+  border-color: rgb(82, 18, 82);
+}
+
+@media (min-width: 800px) {
+  .formlink {
+    display: flex;
+  }
+  .socials {
+    gap: 0.5rem;
+  }
+  .navigation {
+    gap: 1.5rem;
+  }
+}

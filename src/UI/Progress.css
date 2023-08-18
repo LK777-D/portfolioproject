@@ -1,0 +1,29 @@
+.barwrapper {
+  position: relative;
+  width: 20rem;
+  height: 0.3rem;
+  background-color: rgb(10, 9, 9);
+  margin-left: 0.5rem;
+  display: flex;
+  gap: 0.2rem;
+}
+.progress {
+  height: 100%;
+
+  background-color: rgb(75, 6, 75);
+}
+.barwrapper span {
+  margin-top: 0.7rem;
+}
+.progressicon {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 5px;
+  margin-left: 0.5rem;
+}
+.atribute {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
