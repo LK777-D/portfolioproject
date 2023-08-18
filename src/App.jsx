@@ -5,14 +5,10 @@ import Form from "./components/Form";
 import FormImg from "./UI/FormImg";
 import TopLayout from "./components/TopComponentsLayout";
 import Footer from "./components/Footer";
-import { useState } from "react";
-import Alert from "./UI/Alert";
 
 function App() {
-  const [submit, setSubmit] = useState(false);
   return (
     <>
-      {submit && <Alert />}
       <TopLayout />
       <Projects />
       <Skills />
@@ -20,7 +16,7 @@ function App() {
         <h2>Let s Get In Touch</h2>
         <span>Fill The Form To Contact</span>
         <div className="formwithimg">
-          <Form setSubmit={setSubmit} />
+          <Form />
           <FormImg />
         </div>
       </section>

@@ -1,14 +1,7 @@
 import "./Form.css";
 /* eslint-disable react/prop-types */
 
-const Form = (props) => {
-  const submitForm = () => {
-    props.setSubmit(true);
-    setTimeout(() => {
-      props.setSubmit(false);
-    }, 700);
-  };
-
+const Form = () => {
   return (
     <div className="form-container">
       <form name="contact" method="POST" data-netlify="true" className="form">
@@ -32,7 +25,7 @@ const Form = (props) => {
           required
         ></textarea>
         <div className="button-container">
-          <button onClick={submitForm} type="submit" className="send-button">
+          <button type="submit" className="send-button">
             Send
           </button>
         </div>
