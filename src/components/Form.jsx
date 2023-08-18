@@ -2,9 +2,8 @@ import "./Form.css";
 /* eslint-disable react/prop-types */
 
 const Form = (props) => {
-  const submitForm = (event) => {
+  const submitForm = () => {
     props.setSubmit(true);
-    event.preventDefault();
     setTimeout(() => {
       props.setSubmit(false);
     }, 700);
