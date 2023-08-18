@@ -1,12 +1,28 @@
 import "./Form.css";
+/* eslint-disable react/prop-types */
 
-const Form = () => {
+const Form = (props) => {
+  const submitForm = (event) => {
+    props.setSubmit(true);
+    event.preventDefault();
+    setTimeout(() => {
+      props.setSubmit(false);
+    }, 700);
+  };
+
   return (
     <div className="form-container">
-      <form className="form">
+      <form name="contact" method="POST" data-netlify="true" className="form">
         <span className="heading">Get In Touch</span>
-        <input placeholder="Name" type="text" className="input" />
-        <input placeholder="Email" id="mail" type="email" className="input" />
+        <input type="text" name="name" placeholder="Name" className="input" />
+        <input
+          placeholder="Email"
+          id="mail"
+          type="email"
+          name="email"
+          className="input"
+          required
+        />
         <textarea
           placeholder="Send Email..."
           rows="10"
@@ -14,9 +30,10 @@ const Form = () => {
           id="message"
           name="message"
           className="textarea"
+          required
         ></textarea>
         <div className="button-container">
-          <button type="submit" className="send-button">
+          <button onClick={submitForm} type="submit" className="send-button">
             Send
           </button>
         </div>

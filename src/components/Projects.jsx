@@ -76,10 +76,6 @@ const Projects = () => {
           >
             E-Commerce Shop
           </Link>
-          {/* <div className="info">
-            E-Commerce Project With Fetched Products,Cart And Product Details
-            Page
-          </div> */}
         </div>
       </div>
     </section>
