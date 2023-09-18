@@ -11,19 +11,19 @@ const Skills = () => {
   return (
     <section className="skills" id="skillssection">
       <div className="skillscontainer">
-        <h2>Tech Skills</h2>
+        <h2 className="fontp">Tech Skills</h2>
         <Progress
           progress="89%"
           atribute="HTML"
           icon={<UilHtml5 className="html" size="18" />}
         />
         <Progress
-          progress="84%"
+          progress="85%"
           atribute="CSS"
           icon={<UilCss3Simple className="css" size="18" />}
         />
         <Progress
-          progress="82%"
+          progress="85%"
           atribute="Javascript"
           icon={<UilJavaScript className="js" size="18" />}
         />
@@ -33,12 +33,12 @@ const Skills = () => {
           icon={<img src={tailwind} width="25px" height="25px" />}
         />
         <Progress
-          progress="91%"
+          progress="90%"
           atribute="React"
           icon={<UilReact className="react" size="18" />}
         />
       </div>
-      <div className="personal">
+      <div className="personal fontp">
         <CircleProgress />
       </div>
     </section>

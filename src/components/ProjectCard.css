@@ -1,25 +1,34 @@
 .project {
   width: 23rem;
   margin: auto;
-  min-height: 25rem;
+  min-height: 28rem;
   box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 0.5rem;
   align-items: center;
   transition: all 0.4s ease;
+  background-color: rgb(19, 9, 29);
+  padding: 0.5rem 0;
+  cursor: pointer;
 }
 .project:hover {
   box-shadow: 10px 10px 15px rgba(64, 6, 97, 0.9);
+  background-color: rgb(30, 14, 46);
 }
 .img {
   width: 100%;
   height: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 .img img {
-  width: 100%;
-  height: 100%;
+  width: 97%;
+  height: 97%;
   object-fit: cover;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
@@ -44,4 +53,13 @@
 .description {
   text-align: center;
   padding: 0 0.7rem;
+}
+@media (min-width: 600px) {
+  .project {
+    width: 25.5rem;
+  }
+  .img img {
+    height: 95%;
+    width: 95%;
+  }
 }

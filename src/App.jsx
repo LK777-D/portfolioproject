@@ -13,7 +13,7 @@ function App() {
       <Projects />
       <Skills />
       <section id="formsection">
-        <h2>Let s Get In Touch</h2>
+        <h2 className="fontp">Let s Get In Touch</h2>
         <span>Fill The Form To Contact</span>
         <div className="formwithimg">
           <Form />

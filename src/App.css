@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
 #root {
   box-sizing: border-box;
   color: #eee;
@@ -18,7 +19,9 @@ body {
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-
+.fontp {
+  font-family: "Paytone One", sans-serif;
+}
 .formwithimg {
   width: 100%;
   display: flex;
@@ -28,4 +31,7 @@ body {
 #formsection {
   margin-top: 5rem;
   text-align: center;
+}
+::-webkit-scrollbar {
+  display: none;
 }

@@ -2,6 +2,7 @@ import "./ProjectCard.css";
 import { Link } from "react-router-dom";
 import { UilLinkAlt } from "@iconscout/react-unicons";
 import { UilGithub } from "@iconscout/react-unicons";
+/* eslint-disable react/prop-types */
 
 const ProjectCard = (props) => {
   return (
@@ -13,7 +14,7 @@ const ProjectCard = (props) => {
         <p>{props.text}</p>
       </div>
       <div>
-        <span></span>
+        <span>{props.atributes}</span>
       </div>
       <div className="links">
         <Link target="_blank" to={props.linkgh}>

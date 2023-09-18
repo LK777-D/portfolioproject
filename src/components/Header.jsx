@@ -26,7 +26,7 @@ const Header = () => {
         <div className="welcome">
           <span>Welcome To My Portfolio</span>
         </div>
-        <div className="greeting">
+        <div className="greeting fontp">
           <h2>Hi! I&apos;m Luka,FrontEnd{typedText}</h2>
         </div>
         <div className="about">
