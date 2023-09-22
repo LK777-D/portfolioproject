@@ -15,18 +15,21 @@ const Projects = () => {
           text="Video Games Portal - this project combines a visually engaging blog with an extensive catalog of video games. "
           linkgh="https://github.com/LK777-D/vgames"
           link="https://vgamesportal.netlify.app/"
+          technologies="#CSS   #React"
         />
         <ProjectCard
           img={img3}
           text="MultiMart Store - a fully functional ecommerce store.This project involved creating a user-friendly interface  and optimizing for mobile responsiveness."
           linkgh="https://github.com/LK777-D/eShopRepo"
           link="https://multimartstore.netlify.app/"
+          technologies="#CSS   #React"
         />
         <ProjectCard
           img={img2}
           text="NBA - comprehensive platform that provides real-time updates on NBA teams, players, and games.Additionally,  a Lineup Game and Quiz, allowing users to test their knowledge of basketball lineups and rosters."
           linkgh="https://github.com/LK777-D/nbablog"
           link="https://blog-nba.netlify.app/"
+          technologies="#Tailwind   #React   #ReduxToolkit"
         />
       </div>
     </section>

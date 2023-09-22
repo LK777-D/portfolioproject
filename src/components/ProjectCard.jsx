@@ -16,6 +16,7 @@ const ProjectCard = (props) => {
       <div>
         <span>{props.atributes}</span>
       </div>
+      <div className="fontp">{props.technologies}</div>
       <div className="links">
         <Link target="_blank" to={props.linkgh}>
           GitHub <UilGithub size="30" />
