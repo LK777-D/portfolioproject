@@ -3,6 +3,7 @@ import "./Projects.css";
 import img1 from "../assets/vgames.png";
 import img2 from "../assets/nba.png";
 import img3 from "../assets/ecom.png";
+import crypto from "../assets/crypto.png";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -26,10 +27,17 @@ const Projects = () => {
         />
         <ProjectCard
           img={img2}
-          text="NBA - comprehensive platform that provides real-time updates on NBA teams, players, and games.Additionally,  a Lineup Game and Quiz, allowing users to test their knowledge of basketball lineups and rosters."
+          text="NBA - provides real-time updates on NBA teams, players, and games. a Lineup Game and Quiz, allowing users to test knowledge of basketball."
           linkgh="https://github.com/LK777-D/nbablog"
           link="https://blog-nba.netlify.app/"
           technologies="#Tailwind   #React   #ReduxToolkit"
+        />
+        <ProjectCard
+          img={crypto}
+          text="CryptoPro - Crypto Currency market tracker, where you can find prices for the crypto currencies, 1h period change and marketcap"
+          linkgh="https://github.com/LK777-D/cryptopro"
+          link="https://cryptoproapp.netlify.app/"
+          technologies="#Tailwind   #React #Typescript  #ReduxToolkit"
         />
       </div>
     </section>

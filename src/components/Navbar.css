@@ -5,6 +5,7 @@
   background-color: rgb(0, 0, 0, 0.1);
   width: 100%;
   min-height: 4.5rem;
+  position: sticky;
 }
 .navbar a {
   cursor: pointer;

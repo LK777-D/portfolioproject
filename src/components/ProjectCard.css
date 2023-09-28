@@ -12,6 +12,7 @@
   transition: all 0.4s ease;
   background-color: rgb(19, 9, 29);
   padding: 0.5rem 0;
+
   cursor: pointer;
 }
 .project:hover {
@@ -19,7 +20,7 @@
   background-color: rgb(30, 14, 46);
 }
 .img {
-  width: 100%;
+  width: 95%;
   height: 17rem;
   display: flex;
   align-items: center;
