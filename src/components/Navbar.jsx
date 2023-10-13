@@ -7,7 +7,7 @@ import { UilLinkedin } from "@iconscout/react-unicons";
 import Logo from "../UI/Logo";
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar fontp">
       <Logo sizeFirst={"2"} sizeAll={"1.4"} />
       <div className="navigation">
         <Link smooth={true} to="headersection" className="navigationlink">

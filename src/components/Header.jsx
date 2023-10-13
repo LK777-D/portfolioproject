@@ -24,13 +24,13 @@ const Header = () => {
     <section className="headerinfo" id="headersection">
       <div className="textinfo">
         <div className="welcome">
-          <span>Welcome To My Portfolio</span>
+          <span className="fontp">Welcome To My Portfolio</span>
         </div>
         <div className="greeting fontp">
           <h2>Hi! I&apos;m Luka,FrontEnd{typedText}</h2>
         </div>
         <div className="about">
-          <span>
+          <span className="fontp">
             Crafting digital experiences with creativity and code. Explore my
             journey, projects, and skills in web development and design
           </span>
