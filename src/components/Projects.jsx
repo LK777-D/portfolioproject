@@ -20,19 +20,20 @@ const Projects = () => {
           technologies="#Tailwind #Nextjs #Typescript #Firebase"
         />
         <ProjectCard
-          img={img2}
-          text="NBA - provides real-time updates on NBA teams, players, and games. a Lineup Game and Quiz, allowing users to test knowledge of basketball."
-          linkgh="https://github.com/LK777-D/nbablog"
-          link="https://blog-nba.netlify.app/"
-          technologies="#Tailwind   #React   #ReduxToolkit"
-        />
-        <ProjectCard
           img={img1}
           text="Video Games Portal - this project combines a visually engaging blog with an extensive catalog of video games. "
           linkgh="https://github.com/LK777-D/vgames"
           link="https://vgamesportal.netlify.app/"
           technologies="#CSS   #React"
         />
+        <ProjectCard
+          img={img2}
+          text="NBA - provides real-time updates on NBA teams, players, and games. a Lineup Game and Quiz, allowing users to test knowledge of basketball."
+          linkgh="https://github.com/LK777-D/nbablog"
+          link="https://blog-nba.netlify.app/"
+          technologies="#Tailwind   #React   #ReduxToolkit"
+        />
+
         <ProjectCard
           img={crypto}
           text="CryptoPro - Crypto Currency market tracker, where you can find prices for the crypto currencies, 1h period change and marketcap"
