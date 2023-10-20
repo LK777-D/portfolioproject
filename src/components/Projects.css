@@ -14,17 +14,11 @@
 @media (min-width: 600px) {
   .projects {
     width: 100%;
+    max-width: 1300px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
     justify-content: center;
     align-items: center;
-  }
-}
-@media (min-width: 1600px) {
-  .projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 }
