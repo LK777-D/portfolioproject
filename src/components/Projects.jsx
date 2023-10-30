@@ -16,7 +16,7 @@ const Projects = () => {
           img={news}
           text="Cat News - Online news platform, wide range of news articles, from local to global, across various categories including politics, technology,  and more. "
           linkgh="CatNews"
-          link="https://cat-news.vercel.app/"
+          link="https://cat-news-v2.vercel.app/"
           technologies="#Tailwind #Nextjs #Typescript #Firebase"
         />
         <ProjectCard
