@@ -24,9 +24,6 @@ const Header = () => {
   return (
     <section className="headerinfo" id="headersection">
       <div className="textinfo">
-        {/* <div className="welcome">
-          <span className="fontp">Welcome To My Portfolio</span>
-        </div> */}
         <motion.div
           className="greeting fontp"
           variants={{
