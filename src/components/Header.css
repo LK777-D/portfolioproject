@@ -45,6 +45,9 @@
   width: 90%;
   margin-left: 0.4rem;
 }
+.typed {
+  color: purple;
+}
 
 @keyframes slideIn {
   0% {

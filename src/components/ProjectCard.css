@@ -1,7 +1,7 @@
 .project {
   width: 23rem;
   margin: auto;
-  min-height: 28rem;
+  min-height: 24rem;
   box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7);
   border-radius: 8px;
   display: flex;
@@ -21,7 +21,7 @@
 }
 .img {
   width: 95%;
-  height: 17rem;
+  height: 14rem;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -8,10 +8,21 @@ import CircleProgress from "../UI/CircleProgress";
 import tailwind from "../assets/tailwind-css.svg";
 import next from "../assets/nextjs.svg";
 import ts from "../assets/typescript.svg";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <section className="skills" id="skillssection">
+    <motion.section
+      className="skills"
+      id="skillssection"
+      variants={{
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 },
+      }}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.45 }}
+    >
       <div className="skillscontainer">
         <h2 className="fontp">Tech Skills</h2>
         <Progress
@@ -53,7 +64,7 @@ const Skills = () => {
       <div className="personal fontp">
         <CircleProgress />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

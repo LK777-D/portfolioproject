@@ -1,5 +1,5 @@
 import "./Projects.css";
-
+import { motion } from "framer-motion";
 import img1 from "../assets/vgames.png";
 import img2 from "../assets/nba.png";
 import img3 from "../assets/ecom.png";
@@ -9,7 +9,17 @@ import news from "../assets/Screenshot_1.png";
 
 const Projects = () => {
   return (
-    <section className="projectswrapper" id="projectssection">
+    <motion.section
+      className="projectswrapper"
+      id="projectssection"
+      variants={{
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 },
+      }}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.25 }}
+    >
       <h1 className="fontp">Projects</h1>
       <div className="projects">
         <ProjectCard
@@ -49,7 +59,7 @@ const Projects = () => {
           technologies="#CSS   #React"
         />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

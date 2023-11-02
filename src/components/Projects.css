@@ -21,4 +21,7 @@
     justify-content: center;
     align-items: center;
   }
+  #projectssection h1 {
+    font-size: 2.5rem;
+  }
 }
