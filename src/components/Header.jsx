@@ -32,7 +32,7 @@ const Header = () => {
           }}
           initial="hidden"
           animate="visible"
-          transition={{ delay: 0.2, duration: 0.3 }}
+          transition={{ delay: 0.25, duration: 0.5 }}
         >
           <h2>
             Hi! I&apos;m Luka,FrontEnd{" "}

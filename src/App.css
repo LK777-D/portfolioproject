@@ -8,13 +8,13 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background: rgb(10, 8, 73);
+  background: rgb(6, 5, 36);
   background: radial-gradient(
     circle,
-    rgba(10, 8, 73, 1) 8%,
-    rgba(53, 14, 85, 1) 29%,
-    rgba(5, 55, 18, 1) 81%,
-    rgba(17, 5, 55, 1) 92%
+    rgb(6, 5, 39) 8%,
+    rgb(14, 4, 22) 29%,
+    rgb(2, 20, 7) 81%,
+    rgb(10, 3, 32) 92%
   );
   overflow-y: scroll;
   scroll-behavior: smooth;

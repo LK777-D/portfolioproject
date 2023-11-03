@@ -20,25 +20,25 @@ const Projects = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.25 }}
     >
-      <h1 className="fontp">Projects</h1>
+      <h1 className="fontp">My Projects</h1>
       <div className="projects">
         <ProjectCard
           img={news}
-          text="Cat News - Online news platform, wide range of news articles, from local to global, across various categories including politics, technology,  and more. "
+          text="Cat News - Online news platform"
           linkgh="CatNews"
           link="https://cat-news-v2.vercel.app/"
           technologies="#Tailwind #Nextjs #Typescript #Firebase"
         />
         <ProjectCard
           img={img1}
-          text="Video Games Portal - this project combines a visually engaging blog with an extensive catalog of video games. "
+          text="VGames  - Video games portal. "
           linkgh="https://github.com/LK777-D/vgames"
           link="https://vgamesportal.netlify.app/"
           technologies="#CSS   #React"
         />
         <ProjectCard
           img={img2}
-          text="NBA - provides real-time updates on NBA teams, players, and games. a Lineup Game and Quiz, allowing users to test knowledge of basketball."
+          text="NBA - Dynamic NBA news/updates"
           linkgh="https://github.com/LK777-D/nbablog"
           link="https://blog-nba.netlify.app/"
           technologies="#Tailwind   #React   #ReduxToolkit"
@@ -46,14 +46,14 @@ const Projects = () => {
 
         <ProjectCard
           img={crypto}
-          text="CryptoPro - Crypto Currency market tracker, where you can find prices for the crypto currencies, 1h period change and marketcap"
+          text="CryptoPro - Crypto Currency market tracker."
           linkgh="https://github.com/LK777-D/cryptopro"
           link="https://cryptoproapp.netlify.app/"
           technologies="#Tailwind   #React #Typescript  #ReduxToolkit"
         />
         <ProjectCard
           img={img3}
-          text="MultiMart Store - a fully functional ecommerce store.This project involved creating a user-friendly interface  and optimizing for mobile responsiveness."
+          text="MultiMart Store - a fully functional ecommerce store."
           linkgh="https://github.com/LK777-D/eShopRepo"
           link="https://multimartstore.netlify.app/"
           technologies="#CSS   #React"

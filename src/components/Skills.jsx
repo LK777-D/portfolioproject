@@ -16,8 +16,8 @@ const Skills = () => {
       className="skills"
       id="skillssection"
       variants={{
-        hidden: { opacity: 0 },
-        visible: { opacity: 1 },
+        hidden: { opacity: 0, x: 130 },
+        visible: { opacity: 1, x: 0 },
       }}
       initial="hidden"
       whileInView="visible"
