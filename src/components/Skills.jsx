@@ -21,7 +21,7 @@ const Skills = () => {
       }}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.45 }}
+      viewport={{ once: true, amount: 0.15 }}
     >
       <div className="skillscontainer">
         <h2 className="fontp">Tech Skills</h2>
