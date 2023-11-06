@@ -8,10 +8,10 @@ const Progress = (props) => {
         {props.icon}
         {props.atribute}
       </span>
-      <div className="barwrapper">
+      {/* <div className="barwrapper">
         <div style={{ width: `${props.progress}` }} className="progress"></div>
         <span>{props.progress}</span>
-      </div>
+      </div> */}
     </>
   );
 };

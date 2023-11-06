@@ -23,46 +23,43 @@ const Skills = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.15 }}
     >
+      <h1 className="fontp">Tech Skills</h1>
       <div className="skillscontainer">
-        <h2 className="fontp">Tech Skills</h2>
         <Progress
           progress="92%"
           atribute="HTML"
-          icon={<UilHtml5 className="html" size="18" />}
+          icon={<UilHtml5 className="html" size="70" />}
         />
         <Progress
           progress="89%"
           atribute="CSS"
-          icon={<UilCss3Simple className="css" size="18" />}
+          icon={<UilCss3Simple className="css" size="70" />}
         />
         <Progress
           progress="90%"
           atribute="Javascript"
-          icon={<UilJavaScript className="js" size="18" />}
+          icon={<UilJavaScript className="js" size="70" />}
         />
         <Progress
           progress="88%"
           atribute="Tailwind "
-          icon={<img src={tailwind} width="25px" height="25px" />}
+          icon={<img src={tailwind} width="70px" height="30px" />}
         />
         <Progress
           progress="92%"
           atribute="React"
-          icon={<UilReact className="react" size="18" />}
+          icon={<UilReact className="react" size="70" />}
         />
         <Progress
           progress="87%"
           atribute="Nextjs"
-          icon={<img src={next} width="25px" height="25px" />}
+          icon={<img src={next} width="70px" height="30px" />}
         />
         <Progress
           progress="85%"
           atribute="Typescript"
-          icon={<img src={ts} width="25px" height="25px" />}
+          icon={<img src={ts} width="70px" height="30px" />}
         />
-      </div>
-      <div className="personal fontp">
-        <CircleProgress />
       </div>
     </motion.section>
   );

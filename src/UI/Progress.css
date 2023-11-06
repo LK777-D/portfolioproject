@@ -18,7 +18,8 @@
 .progressicon {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  justify-content: space-between;
   gap: 5px;
   margin-left: 0.5rem;
 }
