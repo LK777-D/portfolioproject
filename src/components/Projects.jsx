@@ -26,7 +26,7 @@ const Projects = () => {
           img={news}
           text="Cat News - Online news platform"
           linkgh="CatNews"
-          link="https://cat-news-v2.vercel.app/"
+          link="https://catnewsapp.netlify.app/"
           technologies="#Tailwind #Nextjs #Typescript #Firebase"
         />
         <ProjectCard
