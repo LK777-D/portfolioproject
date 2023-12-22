@@ -6,6 +6,7 @@ import img3 from "../assets/ecom.png";
 import crypto from "../assets/crypto.png";
 import ProjectCard from "./ProjectCard";
 import news from "../assets/Screenshot_1.png";
+import center from "../assets/center.png";
 
 const Projects = () => {
   return (
@@ -23,9 +24,16 @@ const Projects = () => {
       <h1 className="fontp">My Projects</h1>
       <div className="projects">
         <ProjectCard
+          img={center}
+          text="Game Center - Buy&Sell Consoles  "
+          linkgh="https://github.com/LK777-D/gamecenter"
+          link="https://centergame.netlify.app/"
+          technologies="#Tailwind #Nextjs #Typescript #Firebase"
+        />
+        <ProjectCard
           img={news}
           text="Cat News - Online news platform"
-          linkgh="CatNews"
+          linkgh="https://github.com/LK777-D/CatNews"
           link="https://catnewsapp.netlify.app/us"
           technologies="#Tailwind #Nextjs #Typescript #Firebase"
         />
